@@ -1,0 +1,823 @@
+@charset "utf-8";
+@import url("webfonts/Raleway/stylesheet.css");
+html,body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+	z-index: 10;
+	font-family: Raleway;
+}
+body a {
+    text-decoration: none;
+    color: #000000;	
+}
+.heads {
+    display: inline-block;
+    list-style-type: none;
+    width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+.headsII {
+    display: inline-block;
+    list-style-type: none;
+    width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	line-height: .5em;
+}
+div ul .topLinks {
+    list-style-type: none;
+    display: inline-block;
+    height: 50px;
+    width: 160px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+}
+div ul .topLinks a{
+	text-decoration: none;
+}
+.heads .topRight {
+    float: right;
+    
+}
+.heads .siteMap {
+    float: right;
+
+}
+.heads #pls {
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heads #pls #Reservia{
+    margin-top: 50px;
+    line-height: normal;
+}
+.headsII #searchArea {
+    height: 90px;
+}
+.searchContainer p #searchBar {
+	flex-basis: 234px;
+	height: 42px;
+}
+.searchContainer p #submit {
+	flex-basis: 94px;
+	height: 50px;
+	background-color: transparent;
+	border: none;
+}
+.headsII #searchArea .searchContainer p{
+	width: 380px;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-image: url("reserviaRessourcesEN/images/searchBarBackground.svg");
+}
+.headsII #searchArea .searchContainer{
+	display: flex;
+}
+.headsII #searchArea .searchContainer img {
+	display: block;
+}
+#mapIcon {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 52px;
+}
+#filters .filTxt {
+	margin-right: 10%;
+	font-size: 15px;
+	font-weight: bold;
+}
+#filters .fils {
+	border: solid #F2F2F2;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	justify-content: space-between;
+	border-radius: 25px;
+	padding-right: 2.5%;
+	margin-left: 3%;
+}
+#filters #filter {
+	flex-basis: 6.7%;
+	display: flex;
+	align-items: center;
+}
+#filters #lCost {
+    flex-basis: 18%;
+}
+#filters #fFriendly {
+    flex-basis: 23.46%;
+}
+#filters #rom {	
+    flex-basis: 18.31%;
+}
+#filters #pAllow {
+    flex-basis: 21.89%;	
+}
+#filters .circ {
+	background-color: #DEEBFF;
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: -2px;
+}
+#filters {
+    display: flex;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    flex-direction: row;
+    width: 62.15%;
+    height: 50px;
+    justify-content: space-between;
+    margin-top: 32px;	
+}
+#accom {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 30.28%;
+    display: flex;
+    justify-content: flex-start;
+	justify-content: space-between;
+    font-size: 24px;
+}
+#accom #txt {
+	align-items: center;
+}
+#accom #info {
+    width: 25px;
+    height: 25px;
+	border-radius: 12.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	border: solid #DEEBFF;
+	margin-right: 2.5%;
+}
+#results #accomBck {
+    width: 61%;
+    height: 625px;
+    margin-left: 2.5%;
+	padding-left: 1.5%;
+	padding-right: .5%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+	display: grid;
+	grid-template: repeat(4)/repeat(3);
+	grid-template-rows: auto 1fr 1fr auto;	
+	grid-template-areas:
+		"h h h"
+		"I II III"
+		"IV V VI"
+		"f f f"		
+}
+#I {
+	grid-area: I;	
+}
+#II {
+	grid-area: II;
+}
+#III {
+	grid-area: III;
+}
+#IV {
+	grid-area: IV;
+}
+#V {
+	grid-area: V;
+}
+#VI {
+	grid-area: VI;
+}
+#accomBck #fAcc {
+    grid-area: h;	
+}
+#accomBck #fAcc h1 {
+    height: 14px;
+}
+#accomBck #showMore h3 {
+    height: 5px;
+}
+.imgbor .accBck {
+	background-size: 100%;
+	background-position: 50% 50%;
+    height: 57.5%;
+	border-radius: 20px 20px 0px 0px;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	background-repeat: no-repeat;	
+}
+.imgbor .accBck#imgsI {
+	background-image: url("reserviaRessourcesEN/images/hebergements/2_large/I.jpg");	
+}
+#imgsII {
+	background-image: url("reserviaRessourcesEN/images/hebergements/2_large/II.jpg");
+	background-position: 50% 80%;
+}
+#imgsIII {
+	background-image: url("reserviaRessourcesEN/images/hebergements/2_large/III.jpg");
+	background-position: 50% 90%;	
+}
+#imgsIV {
+	background-image: url("reserviaRessourcesEN/images/hebergements/2_large/IV.jpg");
+	background-position: 50% 70%;	
+}
+#imgsV {
+	background-image: url("reserviaRessourcesEN/images/hebergements/2_large/V.jpg");
+}
+#imgsVI {
+	background-image: url("reserviaRessourcesEN/images/hebergements/2_large/VI.jpg");
+	background-position: 50% 60%;
+}
+#accomBck #showMore {
+	grid-area: f;
+}
+#results #pop {
+    width: 30%;	
+	margin-right: 2.5%;
+	background-color: #F2F2F2;
+    border-radius: 20px;
+	display: grid;
+	grid-template: repeat(4)/repeat(1);
+	grid-template-rows: auto 1fr 1fr 1fr;	
+	grid-template-areas:
+		"h"
+		"I"
+		"II"
+		"III"
+}
+#i {
+	grid-area: I;
+}
+#ii {
+	grid-area: II;
+}
+#iii {
+	grid-area: III;
+}
+#results #pop #pTxt {
+	grid-area: h;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 9%;
+	margin-right: 9%;
+}
+#pop #pTxt h1 {
+    height: 14px;
+}
+.ugh .tryBotThis {
+	bottom: 0;	
+}
+.ugh .loc {
+    margin-bottom: 3px;
+	line-height: 8px;
+}
+#pop .popBck {
+	background-position: 50% 50%;
+    width: 37%;
+    height: 92%;
+    border-radius: 20px 0px 0px 20px;
+    margin-top: 2%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pop #i #imgI {
+    background-image: url("reserviaRessourcesEN/images/hebergements/2_large/lili.jpg");   	
+}
+#pop #ii #imgII {
+	background-image: url("reserviaRessourcesEN/images/hebergements/2_large/lilii.jpg");
+}
+#pop #iii #imgIII {
+	background-image: url("reserviaRessourcesEN/images/hebergements/2_large/liliii.jpg");
+}
+#results {
+    display: flex;
+    justify-content: space-between;
+    height: 34%;
+}
+#results #pop .popBor {
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	width: 82%;
+	height: 95%;
+	margin-left: 9%;
+	margin-bottom: 5%;
+	display: flex;
+}
+#results #accomBck .imgbor {
+    background-color: #FFFFFF;
+	border-radius: 20px;
+	width: 95%;
+	height: 95%;
+}
+.popBorFlexs {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.descript {
+	margin-left: 5.67%;
+}
+.activities h3 {
+    font-size: 100%;		
+	}
+.container {
+	margin-left: 2.5%;
+	height: 565px;
+	width: 95%;
+	grid-template: repeat(auto)/repeat(4);
+	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+	
+	grid-template-areas: 
+		"i i i i"
+		"ii iii v vi"
+		"ii iv v vii";
+	display: grid;
+	grid-gap: 2.5%;
+}
+#head {
+	grid-area: i;
+	height: 50px;
+}
+#a {
+    grid-area: ii;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;;
+	height: 445px;	
+}
+#ecoli {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+#b {
+	grid-area: iii;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #F2F2F2;;
+	height: 235px;
+}
+#c {
+	grid-area: iv;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #F2F2F2;;
+	height: 165px;
+	
+}
+#d {
+	grid-area: v;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #F2F2F2;;
+	height: 445px;
+}
+#e {
+	grid-area: vi;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #F2F2F2;;
+	height: 195px;
+}
+#f {
+	grid-area: vii;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #F2F2F2;;
+	height: 210px;
+}
+#actI {
+	height: 87.64%;
+	background-image: url("reserviaRessourcesEN/images/activites/2_large/I.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 20px 20px 0px 0px;
+	background-position: 50% 50%;
+}
+#tBck {
+	height: 76.6%;
+	background-image: url("reserviaRessourcesEN/images/activites/2_large/tII.jpg");
+	background-size: cover;
+	border-radius: 20px 20px 0px 0px;
+	background-position: 50% 50%;
+	
+}
+#bBck {
+	height: 66.67%;
+	background-image: url("reserviaRessourcesEN/images/activites/2_large/bII.jpg");
+	background-size: cover;
+	border-radius: 20px 20px 0px 0px;
+	background-position: 50% 50%;
+}
+#actIII {
+	height: 87.64%;
+	background-image: url("reserviaRessourcesEN/images/activites/2_large/III.jpg");
+	background-size: cover;
+	border-radius: 20px 20px 0px 0px;
+	background-position: 50% 50%;
+}
+#tBckII {
+	height: 71.8%;
+	background-image: url("reserviaRessourcesEN/images/activites/2_large/tIV.jpg");
+	background-size: cover;
+	border-radius: 20px 20px 0px 0px;
+	background-position: 50% 30%;
+}
+#bBckII {
+	height: 73.33%;
+	background-image: url("reserviaRessourcesEN/images/activites/2_large/bIV.jpg");
+	background-size: cover;
+	border-radius: 20px 20px 0px 0px;
+	background-position: 50% 30%;
+}
+.mobileLinks {
+	display: none;
+}
+.containerII {
+	display: none;
+}
+.headsIII {
+	display: none;
+}
+footer {
+    padding-left: 2.5%;
+    height: 220px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    line-height: 40px;
+}
+#oopsie {
+	display: none;
+}
+#woopsie {
+	display: none;
+}
+@media (min-width: 1000px) and (max-width: 1500px){
+	#results {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		width: 95%;
+	}
+	#results #accomBck {
+		width: 95%;
+		height: 625px;
+		margin-left: 2.5%;
+		
+	}
+	#results #pop {
+		width: 95%;
+		height: 625px;
+		margin-left: 2.5%;
+		padding-right: 2%;
+		
+	}
+	#accomBck, #pop {
+		margin-bottom: 2.5%;
+	}
+	#filters {
+		width: 95%;
+	}
+	#accom {
+		width: 50%;
+	}
+	#woopsie {
+		display: none;
+	}
+	#oopsie {
+		display:none;
+	}
+}
+@media (min-width: 676px) and (max-width: 1000px){
+	#filters {
+		width: 95%;
+	}
+	#accom {
+		width: 50%;
+	}
+	#filters {
+		width: 95%;
+	}
+	#accom {
+		width: 50%;
+	}
+	#results {
+		display: inline-block;
+		width: 95%;
+	}
+	#results #accomBck {
+    width: 95%;
+    height: 938px;
+    margin-left: 2.5%;
+	grid-template: repeat(4)/repeat(2);
+	grid-template-rows: auto 1fr 1fr 1fr auto;	
+	grid-template-areas:
+		"h h"
+		"I II"
+		"III IV"
+		"V VI"
+		"f f"	
+	}
+	#results #pop {
+    width: 95%;
+    height: 625px;
+	margin-left: 2.5%;
+	padding-right: 2%;	
+	}
+	#accomBck, #pop {
+		margin-bottom: 2.5%;
+	}
+	.container {
+		display: none;
+	}
+	.containerII {
+		margin-left: 2.5%;
+		margin-bottom: 5%;
+		width: 95%;
+		height: 1400px;
+		display: grid;
+		grid-template: repeat(auto)/repeat(2);
+		grid-gap: 2.5%;
+		grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+		grid-template-areas: 
+			"ai ai"
+			"bi ci"
+			"bi di"
+			"ei fi"
+			"gi fi"		
+	}
+	#aI {
+		grid-area: ai;
+		height: 40px;
+	}
+	#bI {
+		grid-area: bi;
+		height: 645px;
+		border-radius: 20px;
+    	box-shadow: 5px 5px 5px #F2F2F2;
+	}
+	#cI {
+		grid-area: ci;
+		border-radius: 20px;
+		
+    	box-shadow: 5px 5px 5px #F2F2F2;
+	}
+	#dI {
+		grid-area: di;
+		border-radius: 20px;
+    	box-shadow: 5px 5px 5px #F2F2F2;
+	}
+	#eI {
+		grid-area: ei;
+		border-radius: 20px;
+    	box-shadow: 5px 5px 5px #F2F2F2;
+	}
+	#fI {
+		grid-area: fi;
+		height: 645px;
+		border-radius: 20px;
+    	box-shadow: 5px 5px 5px #F2F2F2;
+	}
+	#gI {
+		grid-area: gi;
+		border-radius: 20px;
+    	box-shadow: 5px 5px 5px #F2F2F2;
+	}
+	#filters {
+		width: 95%;
+	}
+	#accom {
+		width: 80%;
+	}
+	#oopsie {
+		display: block;
+	}
+	#fine {
+		display: none;
+	}
+	#woopsie {
+		display:block;
+	}
+	.topRight ul {
+		display: flex;
+	}
+}
+@media (min-width: 0px) and (max-width: 676px){
+	.heads {
+		display: none;
+	}
+	header {
+		height: 130px;
+		width: 100%;
+	}
+	.mobileLinks {
+    	display: block;
+		height: 30px;
+		margin-top: 30px;
+	}
+	.mobileLinks a {
+		color: #0065FC;
+		text-decoration: none;
+	}
+	.mobileLinks #resSign, #AccAct {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;	
+	}
+	.mobileLinks #AccAct {
+		justify-content: space-around;
+	}
+	.mobileLinks #bluBar {
+		display: flex;
+		height: 3px;
+	}
+	.mobileLinks #bluAcc, #bluAct {
+		width: 50%;
+		background-color: #F2F2F2;
+	}
+	.headsII {
+		display: none;
+	}
+	.headsIII {
+		display: flex;
+		flex-direction: column;
+	}
+	#toppy {
+		display: flex;
+		justify-content: center;
+		width: 89.33%;
+		height: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#cages {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		border-radius: 17px;
+	}
+	.searchContainerII {
+		width: 89.33%;	
+	}
+	#doras {
+		background-color: #F2F2F2;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		width: 25%;
+		border-radius: 17px 0px 0px 17px;
+	}
+	#the {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		width: 100%;
+	}
+	#typie {
+		height: 44px;
+		width: 100%;
+	}
+	#kingpin {
+		height: 100%;
+		width: 25%;
+		border-radius: 0px 17px 17px 0px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #0065FC;
+	}
+	#subbie {
+		background-color: transparent;
+		border: none;
+	}
+	#filters {
+		flex-wrap: wrap;
+		width: 89.33%;
+		height: 100%;
+	}
+	#lCost {
+		width: 300px;
+	}	
+	#filters {
+		justify-content: flex-start;
+	}
+	#filters .fils {
+		justify-content: space-between;
+		margin-top: 1%;
+		height: 46px;
+	}	
+	#filters #filter {
+		flex-basis: 100%;
+		order: -1;
+		display: flex;
+		align-items: center;
+	}
+	#filters #lCost {
+		flex-basis: 40%;
+		order: -1;
+	}
+	#filters #fFriendly {
+		flex-basis: 60%;
+	}
+	#filters #rom {	
+		flex-basis: 40%;
+		order: -1;
+	}
+	#filters #pAllow {
+		flex-basis: 65.67%;	
+	}
+	#pAllow .filTxt {
+		margin-right: 30%;
+	}
+	#filters .circ {
+		background-color: #DEEBFF;
+		height: 50px;
+		width: 50px;
+		border-radius: 25px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-left: -2px;
+	}
+	#accom {
+		width: 89.33%;
+		margin-bottom: 3%;
+	}
+	#accom #txt {
+		font-size: 19px;
+	}
+	#results {
+		display: flex;
+		flex-direction: column;
+	}
+	#results #accomBck {
+		width: 89.33%;
+		margin-right: auto;
+		margin-left: auto;
+		display: flex;
+		flex-direction: column;
+		height: 1400px;
+		background-color: transparent;
+		margin-bottom: 50px;
+	}
+	#results #accomBck .imgbor {
+		height: 14.28571428571429%;
+		margin-bottom: 3%;
+		box-shadow: 0 0 20px #F2F2F2;
+		
+	}
+	#results #pop {
+		width: 89.33%;
+		margin-right: auto;
+		margin-left: auto;
+		order: -1;
+		margin-bottom: 3%;
+	}
+	#accomBck #fAcc h1 {
+		height: auto;
+	}
+	.container {
+		height: 1340px;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 25%;
+	}
+	#a, #b, #c, #d, #e, #f {
+		height: 200px;
+	}
+	#actI, #tBck, #bBck, #actIII, #tBckII, #bBckII {
+		height: 70%;
+	}
+	footer {
+		height: 550px;
+		display: flex;
+		flex-direction: column;
+	}
+	footer .feet {
+		margin-left: 8%
+	}
+	#oopsie {
+		display: none;
+	}
+	#woopsie {
+		display:block;
+	}
+
+
+}
